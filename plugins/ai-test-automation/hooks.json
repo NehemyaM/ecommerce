@@ -1,0 +1,10 @@
+{
+  "description": "Placeholder hooks for AI-driven test automation.",
+  "hooks": [
+    {
+      "name": "post-change-test-scan",
+      "event": "after_file_change",
+      "action": "./scripts/run_test_scan.sh"
+    }
+  ]
+}
